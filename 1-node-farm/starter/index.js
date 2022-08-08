@@ -40,6 +40,10 @@ const server = http.createServer((req, res) => {
     res.end("This is OVERVIEW");
   } else if (pathName === "/product") {
     res.end("This is PRODUCT");
+  } else if (pathName === "/api") {
+    fs.readFile("./dev-data/data.json");
+
+    res.end("API");
   } else {
     res.writeHead(404, {
       "Content-type": "text/html",
