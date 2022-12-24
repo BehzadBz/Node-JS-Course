@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["Behzad"]
+  "cSpell.words": ["Behzad"],
+  "terminal.integrated.gpuAcceleration": "on"
 }
