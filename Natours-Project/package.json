@@ -26,6 +26,10 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^1.17.0"
+    "prettier": "^1.17.0",
+    "tsconfig-paths": "^4.1.1"
+  },
+  "engines": {
+    "node": "18.12.1"
   }
 }
